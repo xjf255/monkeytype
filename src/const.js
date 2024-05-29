@@ -24,3 +24,10 @@ export const LIST_OF_LANGUAGE = {
     'chinese 25k',
   ]
 }
+
+export const POSITIONS = {
+  arr : 1,
+  lang : 0
+}
+
+export const URL_API = './src/mocks/phrase.json'

@@ -108,10 +108,13 @@ li {
 }
 
 .repeat {
-  width: 10px;
+  padding: 10px;
   color: rgba(255, 255, 255, 0.38);
   background-color: var(--bg-color);
   border: none;
+  & > i{
+    padding: 10px;
+  }
 }
 
 .language{
