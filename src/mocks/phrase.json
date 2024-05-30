@@ -1,27 +1,97 @@
   {
     "text": {
-      "en": [
+      "English 1k": [
         "The winding road stretched out before them, a symbol of the unpredictable path life often takes. With each step, they uncovered new challenges and unexpected delights, learning to embrace the uncertainty of the journey.",
         "The sun shone brightly, casting a golden hue over the sparkling waves. Children laughed and built sandcastles, while the salty breeze carried the scent of the ocean, creating a perfect backdrop for a day of relaxation and joy",
         "The bookstore café was a haven for book lovers and coffee aficionados alike. Shelves lined with stories from every genre invited visitors to lose themselves in words, while the aroma of freshly brewed coffee added a comforting warmth to the air.",
         "Camping under the stars, they felt a profound connection to the universe. The night sky, a canvas of twinkling lights, inspired dreams and conversations that lingered long after the fire had died down, leaving a sense of wonder and possibility",
         "In the depths of the forest, they stumbled upon an ancient ruin, remnants of a long-lost civilization. The discovery sparked a quest for knowledge, leading them to uncover secrets of the past and understand the rich history that shaped their present."
       ],
-      "es": [
+      "English 5k": [
+        "The winding road stretched out before them, a symbol of the unpredictable path life often takes. With each step, they uncovered new challenges and unexpected delights, learning to embrace the uncertainty of the journey.",
+        "The sun shone brightly, casting a golden hue over the sparkling waves. Children laughed and built sandcastles, while the salty breeze carried the scent of the ocean, creating a perfect backdrop for a day of relaxation and joy",
+        "The bookstore café was a haven for book lovers and coffee aficionados alike. Shelves lined with stories from every genre invited visitors to lose themselves in words, while the aroma of freshly brewed coffee added a comforting warmth to the air.",
+        "Camping under the stars, they felt a profound connection to the universe. The night sky, a canvas of twinkling lights, inspired dreams and conversations that lingered long after the fire had died down, leaving a sense of wonder and possibility",
+        "In the depths of the forest, they stumbled upon an ancient ruin, remnants of a long-lost civilization. The discovery sparked a quest for knowledge, leading them to uncover secrets of the past and understand the rich history that shaped their present."
+      ],
+      "English 10k": [
+        "The winding road stretched out before them, a symbol of the unpredictable path life often takes. With each step, they uncovered new challenges and unexpected delights, learning to embrace the uncertainty of the journey.",
+        "The sun shone brightly, casting a golden hue over the sparkling waves. Children laughed and built sandcastles, while the salty breeze carried the scent of the ocean, creating a perfect backdrop for a day of relaxation and joy",
+        "The bookstore café was a haven for book lovers and coffee aficionados alike. Shelves lined with stories from every genre invited visitors to lose themselves in words, while the aroma of freshly brewed coffee added a comforting warmth to the air.",
+        "Camping under the stars, they felt a profound connection to the universe. The night sky, a canvas of twinkling lights, inspired dreams and conversations that lingered long after the fire had died down, leaving a sense of wonder and possibility",
+        "In the depths of the forest, they stumbled upon an ancient ruin, remnants of a long-lost civilization. The discovery sparked a quest for knowledge, leading them to uncover secrets of the past and understand the rich history that shaped their present."
+      ],
+      "Spanish 1k": [
         "El camino sinuoso se extendía ante ellos, un símbolo del camino impredecible que a menudo toma la vida. Con cada paso, descubrían nuevos desafíos y placeres inesperados, aprendiendo a abrazar la incertidumbre del viaje.",
         "El sol brillaba intensamente, bañando las olas brillantes en un tono dorado. Los niños reían y construían castillos de arena, mientras la brisa salada llevaba el aroma del océano, creando un telón de fondo perfecto para un día de relajación y alegría.",
         "La librería-café era un refugio para los amantes de los libros y los aficionados al café por igual. Estanterías llenas de historias de todos los géneros invitaban a los visitantes a perderse en las palabras, mientras el aroma del café recién hecho añadía una cálida sensación de confort al aire.",
         "Acampando bajo las estrellas, sentían una conexión profunda con el universo. El cielo nocturno, un lienzo de luces titilantes, inspiraba sueños y conversaciones que perduraban mucho después de que el fuego se había apagado, dejando una sensación de asombro y posibilidad.",
         "En lo profundo del bosque, tropezaron con una antigua ruina, vestigios de una civilización perdida hace mucho tiempo. El descubrimiento desató una búsqueda de conocimiento, llevándolos a desvelar secretos del pasado y a comprender la rica historia que moldeó su presente."
       ],
-      "fr": [
+      "Spanish 5k": [
+        "El camino sinuoso se extendía ante ellos, un símbolo del camino impredecible que a menudo toma la vida. Con cada paso, descubrían nuevos desafíos y placeres inesperados, aprendiendo a abrazar la incertidumbre del viaje.",
+        "El sol brillaba intensamente, bañando las olas brillantes en un tono dorado. Los niños reían y construían castillos de arena, mientras la brisa salada llevaba el aroma del océano, creando un telón de fondo perfecto para un día de relajación y alegría.",
+        "La librería-café era un refugio para los amantes de los libros y los aficionados al café por igual. Estanterías llenas de historias de todos los géneros invitaban a los visitantes a perderse en las palabras, mientras el aroma del café recién hecho añadía una cálida sensación de confort al aire.",
+        "Acampando bajo las estrellas, sentían una conexión profunda con el universo. El cielo nocturno, un lienzo de luces titilantes, inspiraba sueños y conversaciones que perduraban mucho después de que el fuego se había apagado, dejando una sensación de asombro y posibilidad.",
+        "En lo profundo del bosque, tropezaron con una antigua ruina, vestigios de una civilización perdida hace mucho tiempo. El descubrimiento desató una búsqueda de conocimiento, llevándolos a desvelar secretos del pasado y a comprender la rica historia que moldeó su presente."
+      ],
+      "Spanish 10k": [
+        "El camino sinuoso se extendía ante ellos, un símbolo del camino impredecible que a menudo toma la vida. Con cada paso, descubrían nuevos desafíos y placeres inesperados, aprendiendo a abrazar la incertidumbre del viaje.",
+        "El sol brillaba intensamente, bañando las olas brillantes en un tono dorado. Los niños reían y construían castillos de arena, mientras la brisa salada llevaba el aroma del océano, creando un telón de fondo perfecto para un día de relajación y alegría.",
+        "La librería-café era un refugio para los amantes de los libros y los aficionados al café por igual. Estanterías llenas de historias de todos los géneros invitaban a los visitantes a perderse en las palabras, mientras el aroma del café recién hecho añadía una cálida sensación de confort al aire.",
+        "Acampando bajo las estrellas, sentían una conexión profunda con el universo. El cielo nocturno, un lienzo de luces titilantes, inspiraba sueños y conversaciones que perduraban mucho después de que el fuego se había apagado, dejando una sensación de asombro y posibilidad.",
+        "En lo profundo del bosque, tropezaron con una antigua ruina, vestigios de una civilización perdida hace mucho tiempo. El descubrimiento desató una búsqueda de conocimiento, llevándolos a desvelar secretos del pasado y a comprender la rica historia que moldeó su presente."
+      ],
+      "French 1k": [
         "La route sinueuse s'étendait devant eux, symbole du chemin imprévisible que la vie prend souvent. À chaque pas, ils découvraient de nouveaux défis et des délices inattendus, apprenant à embrasser l'incertitude du voyage.",
         "Le soleil brillait de mille feux, projetant une teinte dorée sur les vagues scintillantes. Les enfants riaient et construisaient des châteaux de sable, tandis que la brise salée portait le parfum de l'océan, créant un cadre parfait pour une journée de détente et de joie.",
         "La librairie-café était un refuge pour les amateurs de livres et les aficionados du café. Des étagères remplies d'histoires de tous genres invitaient les visiteurs à se perdre dans les mots, tandis que l'arôme du café fraîchement préparé ajoutait une chaleur réconfortante à l'air.",
         "En campant sous les étoiles, ils ressentaient une connexion profonde avec l'univers. Le ciel nocturne, un canevas de lumières scintillantes, inspirait des rêves et des conversations qui duraient longtemps après que le feu s'était éteint, laissant un sentiment d'émerveillement et de possibilité.",
         "Dans les profondeurs de la forêt, ils tombèrent sur une ancienne ruine, vestiges d'une civilisation perdue depuis longtemps. La découverte déclencha une quête de connaissance, les menant à découvrir les secrets du passé et à comprendre l'histoire riche qui a façonné leur présent."
       ],
-      "zh": [
+      "French 5k": [
+        "La route sinueuse s'étendait devant eux, symbole du chemin imprévisible que la vie prend souvent. À chaque pas, ils découvraient de nouveaux défis et des délices inattendus, apprenant à embrasser l'incertitude du voyage.",
+        "Le soleil brillait de mille feux, projetant une teinte dorée sur les vagues scintillantes. Les enfants riaient et construisaient des châteaux de sable, tandis que la brise salée portait le parfum de l'océan, créant un cadre parfait pour une journée de détente et de joie.",
+        "La librairie-café était un refuge pour les amateurs de livres et les aficionados du café. Des étagères remplies d'histoires de tous genres invitaient les visiteurs à se perdre dans les mots, tandis que l'arôme du café fraîchement préparé ajoutait une chaleur réconfortante à l'air.",
+        "En campant sous les étoiles, ils ressentaient une connexion profonde avec l'univers. Le ciel nocturne, un canevas de lumières scintillantes, inspirait des rêves et des conversations qui duraient longtemps après que le feu s'était éteint, laissant un sentiment d'émerveillement et de possibilité.",
+        "Dans les profondeurs de la forêt, ils tombèrent sur une ancienne ruine, vestiges d'une civilisation perdue depuis longtemps. La découverte déclencha une quête de connaissance, les menant à découvrir les secrets du passé et à comprendre l'histoire riche qui a façonné leur présent."
+      ],
+      "French 10": [
+        "La route sinueuse s'étendait devant eux, symbole du chemin imprévisible que la vie prend souvent. À chaque pas, ils découvraient de nouveaux défis et des délices inattendus, apprenant à embrasser l'incertitude du voyage.",
+        "Le soleil brillait de mille feux, projetant une teinte dorée sur les vagues scintillantes. Les enfants riaient et construisaient des châteaux de sable, tandis que la brise salée portait le parfum de l'océan, créant un cadre parfait pour une journée de détente et de joie.",
+        "La librairie-café était un refuge pour les amateurs de livres et les aficionados du café. Des étagères remplies d'histoires de tous genres invitaient les visiteurs à se perdre dans les mots, tandis que l'arôme du café fraîchement préparé ajoutait une chaleur réconfortante à l'air.",
+        "En campant sous les étoiles, ils ressentaient une connexion profonde avec l'univers. Le ciel nocturne, un canevas de lumières scintillantes, inspirait des rêves et des conversations qui duraient longtemps après que le feu s'était éteint, laissant un sentiment d'émerveillement et de possibilité.",
+        "Dans les profondeurs de la forêt, ils tombèrent sur une ancienne ruine, vestiges d'une civilisation perdue depuis longtemps. La découverte déclencha une quête de connaissance, les menant à découvrir les secrets du passé et à comprendre l'histoire riche qui a façonné leur présent."
+      ],
+      "French 25k": [
+        "La route sinueuse s'étendait devant eux, symbole du chemin imprévisible que la vie prend souvent. À chaque pas, ils découvraient de nouveaux défis et des délices inattendus, apprenant à embrasser l'incertitude du voyage.",
+        "Le soleil brillait de mille feux, projetant une teinte dorée sur les vagues scintillantes. Les enfants riaient et construisaient des châteaux de sable, tandis que la brise salée portait le parfum de l'océan, créant un cadre parfait pour une journée de détente et de joie.",
+        "La librairie-café était un refuge pour les amateurs de livres et les aficionados du café. Des étagères remplies d'histoires de tous genres invitaient les visiteurs à se perdre dans les mots, tandis que l'arôme du café fraîchement préparé ajoutait une chaleur réconfortante à l'air.",
+        "En campant sous les étoiles, ils ressentaient une connexion profonde avec l'univers. Le ciel nocturne, un canevas de lumières scintillantes, inspirait des rêves et des conversations qui duraient longtemps après que le feu s'était éteint, laissant un sentiment d'émerveillement et de possibilité.",
+        "Dans les profondeurs de la forêt, ils tombèrent sur une ancienne ruine, vestiges d'une civilisation perdue depuis longtemps. La découverte déclencha une quête de connaissance, les menant à découvrir les secrets du passé et à comprendre l'histoire riche qui a façonné leur présent."
+      ],
+      "chinese 1k": [
+        "蜿蜒的道路在他们面前延伸，象征着人生常常走的不可预测的道路。每迈出一步，他们发现新的挑战和意想不到的乐趣，学会拥抱旅程中的不确定性。",
+        "阳光明媚，金色的阳光洒在波光粼粼的海浪上。孩子们笑着堆沙堡，而咸咸的海风带着海洋的气息，为一个放松愉快的一天营造了完美的背景。",
+        "书店咖啡馆是书迷和咖啡爱好者的避风港。摆满各种类型故事的书架邀请着访客沉浸在文字中，而新鲜冲泡的咖啡香气给空气增添了一种舒适的温暖。",
+        "露营在星空下，他们感受到与宇宙的深刻联系。夜空璀璨的星光，激发了梦想和对话，即使篝火熄灭后也持续着，留下一种惊叹和可能性的感觉。",
+        "在森林的深处，他们偶然发现了一座古老的废墟，是一个久远失落文明的遗迹。这一发现引发了对知识的追求，引导他们揭开过去的秘密，了解塑造他们现在的丰富历史。"
+      ],
+      "chinese 5k": [
+        "蜿蜒的道路在他们面前延伸，象征着人生常常走的不可预测的道路。每迈出一步，他们发现新的挑战和意想不到的乐趣，学会拥抱旅程中的不确定性。",
+        "阳光明媚，金色的阳光洒在波光粼粼的海浪上。孩子们笑着堆沙堡，而咸咸的海风带着海洋的气息，为一个放松愉快的一天营造了完美的背景。",
+        "书店咖啡馆是书迷和咖啡爱好者的避风港。摆满各种类型故事的书架邀请着访客沉浸在文字中，而新鲜冲泡的咖啡香气给空气增添了一种舒适的温暖。",
+        "露营在星空下，他们感受到与宇宙的深刻联系。夜空璀璨的星光，激发了梦想和对话，即使篝火熄灭后也持续着，留下一种惊叹和可能性的感觉。",
+        "在森林的深处，他们偶然发现了一座古老的废墟，是一个久远失落文明的遗迹。这一发现引发了对知识的追求，引导他们揭开过去的秘密，了解塑造他们现在的丰富历史。"
+      ],
+      "chinese 10k": [
+        "蜿蜒的道路在他们面前延伸，象征着人生常常走的不可预测的道路。每迈出一步，他们发现新的挑战和意想不到的乐趣，学会拥抱旅程中的不确定性。",
+        "阳光明媚，金色的阳光洒在波光粼粼的海浪上。孩子们笑着堆沙堡，而咸咸的海风带着海洋的气息，为一个放松愉快的一天营造了完美的背景。",
+        "书店咖啡馆是书迷和咖啡爱好者的避风港。摆满各 种类型故事的书架邀请着访客沉浸在文字中，而新鲜冲泡的咖啡香气给空气增添了一种舒适的温暖。",
+        "露营在星空下，他们感受到与宇宙的深刻联系。夜空璀璨的星光，激发了梦想和对话，即使篝火熄灭后也持续着，留下一种惊叹和可能性的感觉。",
+        "在森林的深处，他们偶然发现了一座古老的废墟，是一个久远失落文明的遗迹。这一发现引发了对知识的追求，引导他们揭开过去的秘密，了解塑造他们现在的丰富历史。"
+      ],
+      "chinese 25k": [
         "蜿蜒的道路在他们面前延伸，象征着人生常常走的不可预测的道路。每迈出一步，他们发现新的挑战和意想不到的乐趣，学会拥抱旅程中的不确定性。",
         "阳光明媚，金色的阳光洒在波光粼粼的海浪上。孩子们笑着堆沙堡，而咸咸的海风带着海洋的气息，为一个放松愉快的一天营造了完美的背景。",
         "书店咖啡馆是书迷和咖啡爱好者的避风港。摆满各种类型故事的书架邀请着访客沉浸在文字中，而新鲜冲泡的咖啡香气给空气增添了一种舒适的温暖。",

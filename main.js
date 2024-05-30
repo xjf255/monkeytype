@@ -1,4 +1,4 @@
-import { toListLanguage } from "./src/lang/list";
+import { toListLanguage } from "./src/lang/toList";
 import { updatePhrase } from "./src/phrase/updatePhrase";
 
 const $dialog = document.getElementById('dialog');
@@ -20,11 +20,10 @@ document.addEventListener("click", e => {
     $dialog.close()
   }
   if (e.target.matches('li')) {
-    const element = e.target
-    lang.textContent = element.textContent
-    localStorage.setItem('language', element.textContent)
-    localStorage.setItem('lang', element.dataset.lang)
-    updatePhrase(element.dataset.lang)
+    const element = e.target.textContent
+    lang.textContent = element
+    localStorage.setItem('language', element)
+    updatePhrase(element)
   }
 })
 
@@ -32,18 +31,14 @@ $btn_repeat.addEventListener('click', () => {
   updatePhrase()
 })
 
-$input.addEventListener("keyup", e =>{
+$input.addEventListener("keyup", e => {
   const input = e.target.value
-  toListLanguage({input})
-
-
+  const regex = /^[a-zA-Z0-9]*$/;
+  if (e.code === 'Escape') {
+    $dialog.style.display = "none"
+    return $dialog.close()
+  }
+  if (regex.test(input)) {
+    toListLanguage({ input })
+  }
 })
-
-// input.addEventListener("keydown", e => {
-//   const text = input.value
-//   if (e.code === 'Escape') {
-//     $dialog.style.display = "none"
-//     $dialog.close()
-//   }
-
-// })

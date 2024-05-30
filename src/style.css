@@ -48,8 +48,16 @@ dialog {
 
   &>.dialog--body {
     width: 400px;
+    height: 500px;
     background-color: var(--bg-color);
   }
+}
+
+#section--language{
+  height: 400px;
+  overflow-y: scroll;
+  padding: 0;
+  margin: 0;
 }
 
 ul {
