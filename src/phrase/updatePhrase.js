@@ -1,5 +1,6 @@
 import { POSITIONS, URL_API } from "../const"
 import { getAPI } from "../services/getAPI"
+import { getFormat } from "./logic/getFormat"
 
 const SelectedPhrase = async ({langSelected}) => {
   const json_phrase = await getAPI(URL_API)
@@ -11,8 +12,13 @@ const SelectedPhrase = async ({langSelected}) => {
   return textPhrase
 }
 
-export async function updatePhrase(lang){
+export async function getPhrase(lang){
   const $section = document.getElementById('phrase')
   const langSelected = lang ?? localStorage.getItem('language')
-  $section.textContent = await SelectedPhrase({langSelected})
+  const text = await SelectedPhrase({langSelected})
+  const newText = getFormat({text})
+  console.log(newText)
+  newText.forEach(element => {
+    $section.appendChild(element)
+  });
 }

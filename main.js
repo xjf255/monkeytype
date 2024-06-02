@@ -1,12 +1,12 @@
 import { toListLanguage } from "./src/lang/toList";
-import { updatePhrase } from "./src/phrase/updatePhrase";
+import { getPhrase } from "./src/phrase/updatePhrase"
 
 const $dialog = document.getElementById('dialog');
 const $btn_repeat = document.getElementById("repeat");
 const $input = document.getElementById("search");
 
 (() => {
-  updatePhrase()
+  getPhrase()
   toListLanguage()
 })()
 
@@ -23,13 +23,15 @@ document.addEventListener("click", e => {
     const element = e.target.textContent
     lang.textContent = element
     localStorage.setItem('language', element)
-    updatePhrase(element)
+    getPhrase(element)
   }
 })
 
 $btn_repeat.addEventListener('click', () => {
-  updatePhrase()
+  getPhrase()
 })
+
+// document.addEventListener("keydown")
 
 $input.addEventListener("keyup", e => {
   const input = e.target.value
