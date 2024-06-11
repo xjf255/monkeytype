@@ -23,6 +23,5 @@ export async function getPhrase(lang){
   newText.forEach(element => {
     $fragment.appendChild(element)
   });
-  console.log($fragment)
   $section.appendChild($fragment)
 }

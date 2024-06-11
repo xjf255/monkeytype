@@ -21,3 +21,7 @@ export const POSITIONS = {
 }
 
 export const URL_API = './src/mocks/phrase.json'
+
+export const firstPosition = 0
+
+export const initTime = 30
