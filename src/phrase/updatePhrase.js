@@ -14,11 +14,15 @@ const SelectedPhrase = async ({langSelected}) => {
 
 export async function getPhrase(lang){
   const $section = document.getElementById('phrase')
+  const $fragment = document.createElement('div')
   const langSelected = lang ?? localStorage.getItem('language')
   const text = await SelectedPhrase({langSelected})
   const newText = getFormat({text})
-  console.log(newText)
+  const hasChild = $section.querySelector('div')
+  if(hasChild) hasChild.remove()
   newText.forEach(element => {
-    $section.appendChild(element)
+    $fragment.appendChild(element)
   });
+  console.log($fragment)
+  $section.appendChild($fragment)
 }

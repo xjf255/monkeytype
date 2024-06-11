@@ -2,6 +2,7 @@
   --bg-color: #323437;
   --txt-color: rgba(255, 255, 255, 0.38);
   --txt-color-important: rgba(232, 221, 12, 0.903);
+  --main-color:#e2b714;
   --txt-color-hover:rgba(255, 255, 255, 0.676);
 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -29,7 +30,7 @@ body {
 }
 
 header{
-  color: #e2b714;
+  color: var(--main-color);
 }
 
 h1 {
@@ -81,13 +82,13 @@ li {
 }
 
 #app {
-  max-width: 1280px;
+  max-width: 1120px;
   margin: 0 auto;
   padding: 2rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 40px;
+  gap: 20px;
+  text-align: center;
 }
 
 .fa-solid {
@@ -139,20 +140,59 @@ li {
   cursor: pointer;
 }
 
-.time {
-  text-align: start;
-  color: var(--txt-color-important);
+time {
+  color: var(--main-color);
   font-weight: 500;
   font-size: 22px;
+  text-align: start;
+
+  &.disable{
+   opacity: 0;
+  }
 }
 
-.text {
+.text > div {
   display: flex;
   flex-wrap: wrap;
   column-gap: 10px;
   font-size: 24px;
   letter-spacing: 4px;
-  text-align: center;
   font-weight: 400;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+letter{
+  position: relative;
+  &.select::before{
+    content: "|";
+    color: var(--main-color);
+    font: 900;
+    position: absolute;
+    left: -4px;
+    bottom: -2px;
+    animation: blink 1s ease-in-out infinite;
+  }
+  &.is-last::before{
+    left: 80%;
+  }
+  &.correct {
+    color: #d1d0c5;
+  }
+  &.incorrect {
+    color:rgba(245, 68, 68, 0.947)
+  }
+}
+word{
+  border-bottom: 1px solid transparent;
+  &.marked{
+    border-color: rgb(205, 9, 9);
+  }
+}
+
+@keyframes blink {
+  0%{
+    opacity: 0;
+  }
+  75%{
+    opacity: 1;
+  }
 }
